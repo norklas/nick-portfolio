@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 
 a {
@@ -13,4 +16,45 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#6096ba, #6096ba);
+}
+
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%;
+}
+
+@layer base {
+  body {
+    @apply bg-blue-jay;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px black;
+  }
+  .text-shadow-md {
+    text-shadow: 4px 4px 8px black;
+  }
+  .text-shadow-lg {
+    text-shadow: 15px 15px 30px black;
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
 }
