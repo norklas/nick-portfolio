@@ -3,7 +3,7 @@ import Image from "next/image";
 const Card = ({ src, href, title, description }) => {
   return (
     <div className="max-w-sm bg-hippie-blue rounded-lg border border-mystic shadow-md relative transform hover:scale-105 transition duration-2000 ease-out">
-      <a href="#">
+      <a href={href}>
         <Image
           className="rounded-t-lg"
           src={src}
