@@ -38,8 +38,8 @@ const About = () => {
       <div className="custom:block">
         <Image
           src={avatarPic}
-          width="112"
-          height="112"
+          width="124"
+          height="124"
           className="rounded-full"
           alt="avatar"
         />
