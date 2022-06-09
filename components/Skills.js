@@ -1,11 +1,3 @@
-import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiBootstrap,
-  SiMongodb,
-} from "react-icons/si";
-
 const Skills = () => {
   return (
     <div className="my-16 px-3" id="skills">
