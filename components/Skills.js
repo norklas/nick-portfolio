@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="my-16 px-3" id="skills">
-      <p className="text-3xl font-bold text-mystic">Technologies:</p>
+      <p className="text-3xl font-bold text-mystic">Technologies</p>
 
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-5 my-8 text-mystic">
         <div>
