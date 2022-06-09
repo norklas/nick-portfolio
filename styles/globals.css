@@ -58,3 +58,20 @@ a {
     text-shadow: none;
   }
 }
+
+li {
+  list-style: none;
+  position: relative;
+}
+
+li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.2rem;
+  bottom: 0;
+  margin: auto;
+  width: 15px;
+  height: 2px;
+  background-color: #e7ecef;
+}

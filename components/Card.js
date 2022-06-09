@@ -21,7 +21,7 @@ const Card = ({ src, href, title, description }) => {
         <p className="mb-3 font-normal text-mystic">{description}</p>
         <a
           href={href}
-          className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-mystic bg-blue-jay rounded-lg hover:bg-[#1F3E61] focus:ring-4 focus:outline-none focus:ring-blue-300"
+          className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-mystic bg-blue-jay rounded-lg hover:bg-[#1F3E61]  focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           View
           <svg

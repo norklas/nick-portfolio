@@ -58,10 +58,7 @@ const Contact = () => {
             <FaDiscord />
           </a>
         </Link>
-        <Link
-          href="https://www.linkedin.com/in/nick-melanson-964261110/"
-          passHref
-        >
+        <Link href="https://www.linkedin.com/in/nick-melanson/" passHref>
           <a
             target="_blank"
             rel="noopener noreferrer"

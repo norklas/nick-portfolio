@@ -8,7 +8,7 @@ const NowPlaying = () => {
   const { data } = useSWR("/api/now-playing", fetcher);
   return (
     <>
-      <div className="font-sen mb-8 flex max-w-full flex-row items-center gap-x-2 rounded-md text-center text-lg text-gray-300">
+      <div className="mb-8 flex max-w-full flex-row items-center gap-x-2 rounded-md text-center text-lg text-mystic">
         <Image
           src="/assets/spotify.svg"
           width="40"

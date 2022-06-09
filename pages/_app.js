@@ -2,8 +2,6 @@ import "../styles/globals.css";
 
 import "@fontsource/mukta/500.css";
 
-import avatarPic from "../public/assets/avatar.jpg";
-
 import { NextSeo } from "next-seo";
 import Head from "next/head";
 

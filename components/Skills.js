@@ -1,41 +1,54 @@
-import { MdOutlineNavigateNext } from "react-icons/md";
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiTailwindcss,
+  SiBootstrap,
+  SiMongodb,
+} from "react-icons/si";
 
 const Skills = () => {
   return (
     <div className="my-16 px-3" id="skills">
-      <p className="text-3xl font-bold text-mystic">Skills</p>
+      <p className="text-3xl font-bold text-mystic">Technologies:</p>
 
-      <div className="text-md my-8 flex flex-col font-medium md:text-xl custom:text-lg text-mystic">
-        <p className="flex flex-row items-center border-b-[0.1px] border-mystic py-1">
-          <MdOutlineNavigateNext />
-          <span className="text-perano">JavaScript</span>
-          &nbsp;as my main language
-        </p>
-
-        <p className="flex flex-row items-center border-b-[0.1px] border-mystic py-1">
-          <MdOutlineNavigateNext />
-          <span className="text-perano">Next.js</span>
-          &nbsp;as my Frontend framework
-        </p>
-
-        <p className="flex flex-row items-center border-b-[0.1px] border-mystic py-1">
-          <MdOutlineNavigateNext />
-          <span className="text-perano">Tailwind CSS</span>
-          &nbsp;as my CSS framework
-        </p>
-
-        <p className="flex flex-row items-center border-b-[0.1px] border-mystic py-1">
-          <MdOutlineNavigateNext />
-          <span className="text-perano">Express.js</span>
-          &nbsp;as my Backend framework
-        </p>
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-5 my-8 text-mystic">
+        <div>
+          <h3 className="text-2xl mb-3">Languages</h3>
+          <ul className="pl-7 text-perano text-lg">
+            <li>HTML5 (Handlebars)</li>
+            <li>CSS3 (SASS)</li>
+            <li>JavaScript (ES6)</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl mb-3">Methods</h3>
+          <ul className="pl-7 text-perano text-lg">
+            <li id="li-text">OOP</li>
+            <li>Webpack/NPM</li>
+            <li>PWAS/Service Workers</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl mb-3">Frameworks & Libraries</h3>
+          <ul className="pl-7 text-perano text-lg">
+            <li>React/Next.js</li>
+            <li>jQuery</li>
+            <li>TailwindCSS/Bootstrap</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-2xl mb-3">Databases & Tools</h3>
+          <ul className="pl-7 text-perano text-lg">
+            <li>MongoDB (Mongoose)</li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>Heroku</li>
+          </ul>
+        </div>
       </div>
-
-      <p className="text-lg font-medium text-mystic">
-        ... more skills include <span className="text-perano">Sequelize</span>,{" "}
-        <span className="text-perano">React.js</span>,{" "}
-        <span className="text-perano">SQL</span>{" "}
-      </p>
     </div>
   );
 };
