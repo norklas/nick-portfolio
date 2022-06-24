@@ -10,13 +10,13 @@ const Skills = () => {
             <li>HTML5 (Handlebars)</li>
             <li>CSS3 (SASS)</li>
             <li>JavaScript (ES6)</li>
-            <li>SQL</li>
+            <li>SQL/GraphQL</li>
           </ul>
         </div>
         <div>
           <h3 className="text-2xl mb-3">Methods</h3>
           <ul className="pl-7 text-perano text-lg">
-            <li id="li-text">OOP</li>
+            <li>OOP</li>
             <li>Webpack/NPM</li>
             <li>PWAS/Service Workers</li>
             <li>Responsive Design</li>

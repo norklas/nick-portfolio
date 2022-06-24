@@ -27,17 +27,6 @@ const Contact = () => {
           </a>
         </Link>
 
-        <Link href="https://twitter.com/eNeM___" passHref>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="contact icon"
-            className="rounded-lg bg-hippie-blue p-2 text-2xl text-white ring-mystic transition-all duration-150 hover:ring-2"
-          >
-            <AiOutlineTwitter />
-          </a>
-        </Link>
-
         <Link href="mailto:nickm890@gmail.com" passHref>
           <a
             target="_blank"
