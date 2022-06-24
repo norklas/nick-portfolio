@@ -18,7 +18,7 @@ const Skills = () => {
           <ul className="pl-7 text-perano text-lg">
             <li>OOP</li>
             <li>Webpack/NPM</li>
-            <li>PWAS/Service Workers</li>
+            <li>PWAs/Service Workers</li>
             <li>Responsive Design</li>
           </ul>
         </div>
