@@ -13,15 +13,21 @@ const About = () => {
         <p className="text-3xl font-bold">Nick Melanson</p>
         <p className="mt-1 text-lg">Frontend Developer, and a Student</p>
 
-        <p className="mt-4 text-perano">
-          Proficient in Frontend, dabbling in Backend.
+        <p className="mt-4  text-perano">
+          Passionate lifelong learner with a commitment to clean, robust code.
         </p>
         <p className="mt-4 text-perano">
-          Dedicated lifelong learner with a commitment to clean, robust code.
+          Experience in building Single Page Applications, Web Development,
+          Frontend UI/UX components in JavaScript, Node.js, React.js, Next.js,
+          Tailwind, Flexbox/Grid.
+        </p>
+        <p className="mt-4 text-perano">
+          Also familiar with Express.js, MySQL, Sequelize, MongoDB, Mongoose,
+          GraphQL, and Apollo for Backend work.
         </p>
 
         <Link
-          href="https://www.dropbox.com/s/ok746sulh19ctbo/Resume.pdf?dl=0"
+          href="https://www.dropbox.com/s/71dbg99o9hue6x2/Resume.pdf?dl=0"
           passHref
         >
           <a
