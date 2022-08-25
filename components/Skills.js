@@ -29,6 +29,7 @@ const Skills = () => {
             <li>jQuery</li>
             <li>TailwindCSS/Bootstrap</li>
             <li>Node.js</li>
+            <li>Jest/Cypress</li>
           </ul>
         </div>
         <div>
