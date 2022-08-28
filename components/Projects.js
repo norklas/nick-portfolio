@@ -18,8 +18,8 @@ const Projects = () => {
           src={whereWander}
           title={"Where to Wander"}
           description={"HTML/CSS/JavaScript/API"}
-          live={"https://norklas.github.io/project-one/"}
-          github={"https://norklas.github.io/project-one"}
+          live={"https://norklas.github.io/where-to-wander/"}
+          github={"https://github.com/norklas/where-to-wander"}
         />
         <Card
           src={goFish}
