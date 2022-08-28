@@ -27,7 +27,7 @@ const About = () => {
         </p>
 
         <Link
-          href="https://www.dropbox.com/s/db2oht1v6mn4lg7/Nick%20Melanson.pdf?dl=0"
+          href="https://www.dropbox.com/s/416p2lb61nyfgut/Nick%20Melanson%20Resume.pdf?dl=0"
           passHref
         >
           <a
