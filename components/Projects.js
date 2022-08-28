@@ -4,10 +4,6 @@ import Card from "/components/Card";
 import goFish from "../public/assets/go-fish-home.png";
 import whereWander from "../public/assets/where-wander.png";
 import giv from "../public/assets/giv.jpg";
-import noteTaker from "../public/assets/note-taker.jpg";
-import techBlog from "../public/assets/tech-blog.jpg";
-import weatherDash from "../public/assets/weather-dash.jpg";
-import reactPortfolio from "../public/assets/react-port.jpg";
 
 const Projects = () => {
   return (
@@ -34,34 +30,6 @@ const Projects = () => {
           description={"MERN/GraphQL/Apollo"}
           live={"https://giv-social.herokuapp.com/"}
           github={"https://github.com/norklas/giv"}
-        />
-        <Card
-          src={reactPortfolio}
-          title={"React SPA Portfolio"}
-          description={"React/TailwindCSS"}
-          live={"https://norklas.github.io/nick-port-react/"}
-          github={"https://github.com/norklas/nick-port-react"}
-        />
-        <Card
-          src={noteTaker}
-          title={"Note Taker"}
-          description={"JavaScript/Express/UUID"}
-          live={"https://nork-note-taker.herokuapp.com/"}
-          github={"https://github.com/norklas/note-taker-app"}
-        />
-        <Card
-          src={techBlog}
-          title={"Tech Blog"}
-          description={"JavaScript/Express/bCrypt/MVC"}
-          live={"https://norklas-tech-blog.herokuapp.com/"}
-          github={"https://github.com/norklas/mvc-tech-blog"}
-        />
-        <Card
-          src={weatherDash}
-          title={"Weather Dashboard"}
-          description={"JavaScript/API/jQuery/Tailwind"}
-          live={"https://norklas.github.io/weather-dashboard/"}
-          github={"https://github.com/norklas/weather-dashboard"}
         />
       </div>
     </div>
