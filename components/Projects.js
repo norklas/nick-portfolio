@@ -21,14 +21,14 @@ const Projects = () => {
           src={goFish}
           title={"Go Fish"}
           description={"JavaScript/Express/Sequelize/MVC"}
-          live={"https://go-fish-project-two.herokuapp.com/"}
+          live={"https://go-fish.up.railway.app/"}
           github={"https://github.com/norklas/go-fish"}
         />
         <Card
           src={giv}
           title={"giv."}
           description={"MERN/GraphQL/Apollo"}
-          live={"https://giv-social.herokuapp.com/"}
+          live={"https://giv-social.up.railway.app/"}
           github={"https://github.com/norklas/giv"}
         />
       </div>
