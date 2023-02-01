@@ -9,15 +9,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <NextSeo
-        title="Nick Melanson | Frontend Developer"
-        titleTemplate="Nick Melanson | Frontend Developer"
-        defaultTitle="Nick Melanson | Frontend Developer"
-        description="Hey, I'm Nick! A Frontend Developer, student, and tech enthusiast"
+        title="Nick Melanson | Full Stack Developer"
+        titleTemplate="Nick Melanson | Full Stack Developer"
+        defaultTitle="Nick Melanson | Full Stack Developer"
+        description="Hey, I'm Nick! A Full Stack Developer, student, and tech enthusiast"
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, Web Developer, web development, web developer, tech enthusiast, open source",
+              "Full Stack Developer, Web Developer, web development, web developer, tech enthusiast, open source",
           },
         ]}
       />
