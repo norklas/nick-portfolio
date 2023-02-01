@@ -11,7 +11,7 @@ const About = () => {
     >
       <div>
         <p className="text-3xl font-bold">Nick Melanson</p>
-        <p className="mt-1 text-lg">Frontend Developer, and a Student</p>
+        <p className="mt-1 text-lg">Full Stack Developer, and a Student</p>
 
         <p className="mt-4  text-perano">
           Passionate lifelong learner with a commitment to clean, robust code.
@@ -27,7 +27,7 @@ const About = () => {
         </p>
 
         <Link
-          href="https://www.dropbox.com/s/416p2lb61nyfgut/Nick%20Melanson%20Resume.pdf?dl=0"
+          href="https://www.dropbox.com/s/jxv3ut5vc35sg71/Nick%20Melanson%20Resume.pdf?dl=0"
           passHref
         >
           <a
