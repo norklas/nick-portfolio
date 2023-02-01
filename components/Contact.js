@@ -27,7 +27,7 @@ const Contact = () => {
           </a>
         </Link>
 
-        <Link href="mailto:nickm890@gmail.com" passHref>
+        <Link href="mailto:nickmelanson@proton.me" passHref>
           <a
             target="_blank"
             rel="noopener noreferrer"
